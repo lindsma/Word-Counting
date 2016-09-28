@@ -14,7 +14,6 @@ var wordCountObject = {
     wordContainer: {},
     oldKey: "",
     newKey: "",
-    wordPrint: null,
 
     siloWords: function(string) {
         while (this.index < string.length) {
@@ -33,11 +32,9 @@ var wordCountObject = {
             this.index++;
         }
         console.log(this.wordContainer);
-
     }
 
-
-  };
+};
 
 
 wordCountObject.siloWords(wordStringSplit);
